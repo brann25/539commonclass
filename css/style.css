@@ -4,6 +4,10 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+main {
+    overflow: hidden;
+}
+
 .skip {
     position: absolute;
     top: -30px;
@@ -16,7 +20,7 @@ body {
 ul li{
     display: inline;
 }
-/* https://www.w3schools.com/css/css_link.asp */
+
 ul{
     width: 90%;
     text-align: center;
