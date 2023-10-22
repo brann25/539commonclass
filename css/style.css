@@ -55,6 +55,8 @@ ul{
 } 
 h1 {
     text-align: center;
+    text-decoration: underline solid 2px #3381da;
+    text-decoration-style: wavy;
 }
 /* Banner part */
 .banner{
@@ -87,11 +89,21 @@ img{
 .card{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(183, 219, 229);
-    padding: 10px 40px 10px 40px;
-    margin: 20px -10px 10px -10px;
+    background-color: rgb(186, 216, 224);
+    padding: 10px 50px 10px 40px;
+    margin: 20px -10px 20px -10px;
     column-gap: 7px;
     row-gap: 7px;
+
+    text-align: center;
+    margin: auto;
+}
+.card img {
+    border: solid rgb(244, 244, 244) 10px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
 }
 .item:first-child{
     grid-column: 1/span 3;
