@@ -33,7 +33,7 @@ ul{
 .nav_opt:hover, .nav_opt:active{
     background-color: rgb(52, 52, 52);
     border-radius: 50em;
-    padding: .3% 30px .3% 30px;
+    padding: .5%;
     font-weight: 900;
 } 
 .active{
