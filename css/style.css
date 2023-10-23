@@ -44,7 +44,7 @@ ul{
     padding: .5%;
     font-weight: 900;
 } 
-.active{
+.current_page{
     background-color: rgb(233, 139, 139);
     color: rgb(25, 12, 12);
     border-radius: 50em;
