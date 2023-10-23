@@ -44,6 +44,9 @@ ul{
     padding: .5%;
     font-weight: 900;
 } 
+
+/* check tutorial
+“How To Add Active Class To Current Element.” W3Schools, https://www.w3schools.com/howto/howto_js_active_element.asp. Accessed 22 October 2023. */
 .current_page{
     background-color: rgb(233, 139, 139);
     color: rgb(25, 12, 12);
@@ -241,4 +244,15 @@ img{
     justify-content: center;
     margin: auto;
     padding: 20px;
+}
+
+/* check tutorial */
+/* “prefers-reduced-motion - CSS: Cascading Style Sheets | MDN.” MDN Web Docs, 21 August 2023, https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion. Accessed 23 October 2023. */
+@media (prefers-reduced-motion) {
+    .banner-img {
+        animation: none;
+    }
+    iframe{
+        display: none;
+    }
 }
