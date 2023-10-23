@@ -80,6 +80,17 @@ h1 {
     margin: 10px auto auto auto;
     border-radius: 2em;
 }
+
+.banner-img-gif {
+    grid-column: 1/span 3;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 10px auto auto auto;
+    border-radius: 2em;
+}
+
 .banner-description{
     padding: 5%;
     grid-column: 1/span 3;
