@@ -59,7 +59,7 @@ h1 {
 }
 /* Banner part */
 .banner{
-    background-color: rgb(255, 222, 125);
+    background-color: rgb(244, 221, 151);
     border-radius: 1.5em;
     padding: 15px;
     margin: 20px 0 20px 0;
@@ -202,4 +202,43 @@ img{
     text-align: left;
 }
 
+.recipe-card{
+    background-color: rgb(245, 200, 145);
+    border-radius: 1.5em;
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
 
+.recipe img{
+    width: 100%;
+}
+
+.food-picture img{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 10px 10px 10px;
+}
+.recipe{
+    background-color: rgba(238, 228, 223, 0.8);
+    padding: 5px;
+    border-radius: .5em;
+}
+.recipe:first-child{
+    grid-column: 1/ span 2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto 28px auto 28px;
+}
+.recipe:last-child{
+    grid-column: 1/ span 2;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
