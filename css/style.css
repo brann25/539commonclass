@@ -264,12 +264,9 @@ img{
     padding: 20px;
 }
 
-/* check tutorial */
+/* note * check tutorial */
 /* “prefers-reduced-motion - CSS: Cascading Style Sheets | MDN.” MDN Web Docs, 21 August 2023, https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion. Accessed 23 October 2023. */
 @media (prefers-reduced-motion) {
-    .banner-img {
-        animation: none;
-    }
     embed{
         display: none;
     }
