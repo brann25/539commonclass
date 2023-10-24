@@ -270,7 +270,7 @@ img{
     .banner-img {
         animation: none;
     }
-    iframe{
+    embed{
         display: none;
     }
 }
